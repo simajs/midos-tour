@@ -25,7 +25,7 @@ export default function AdminPanel({ onClose }: { onClose: () => void }) {
         <div className="flex items-center gap-3">
           <h1 className="font-[family-name:var(--font-family-pixel)] text-pixel-yellow text-sm">ADMIN PANEL</h1>
           <span className={`text-xs px-2 py-0.5 rounded ${dbConnected ? 'bg-pixel-green/20 text-pixel-green' : 'bg-pixel-red/20 text-pixel-red'}`}>
-            {dbConnected ? 'DB Connected' : 'Mock Mode'}
+            {dbConnected ? 'DB Connected' : 'BB STUDIO'}
           </span>
           <span className="font-[family-name:var(--font-family-pixel)] text-pixel-yellow text-[9px]">
             Balance: {Number(stats?.balance || 0).toFixed(2)} DT
