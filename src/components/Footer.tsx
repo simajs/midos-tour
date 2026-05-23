@@ -36,7 +36,7 @@ export default function Footer({ onAdminClick }: FooterProps) {
 
           </div>
         <a
-          href="https://www.instagram.com/YOUR_USERNAME"
+          href="https://www.instagram.com/beastboy.design/"
           target="_blank"
           rel="noopener noreferrer"
           className="block text-center font-[family-name:var(--font-family-vt)] text-pixel-white/20 text-sm mt-6 hover:text-pixel-white/50 transition"
